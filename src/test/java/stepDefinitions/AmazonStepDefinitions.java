@@ -12,19 +12,18 @@ import utilities.Driver;
 public class AmazonStepDefinitions {
 
     AmazonPage amazonPage=new AmazonPage();
+
     @Given("kullanici amazon anasayfaya gider")
     public void kullanici_amazon_anasayfaya_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
-
-
     }
+
     @Then("amazon arama kutusuna Nutella yazip aratir")
     public void amazon_arama_kutusuna_nutella_yazip_aratir() {
         amazonPage= new AmazonPage();
-
         amazonPage.amazonAramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
-
     }
+
     @Then("arama sonuclarinin Nutella icerdigini test eder")
     public void arama_sonuclarinin_nutella_icerdigini_test_eder() {
 
@@ -33,18 +32,17 @@ public class AmazonStepDefinitions {
         String expected="Nutella";
         Assert.assertTrue(actual.contains(expected));
     }
+
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
 
         Driver.closeDriver();
-
-
     }
+
     @Then("amazon arama kutusuna Java yazip aratir")
     public void amazonAramaKutusunaJavaYazipAratir() {
         amazonPage= new AmazonPage();
         amazonPage.amazonAramaKutusu.sendKeys("Java"+ Keys.ENTER);
-
     }
 
     @And("arama sonuclarinin Java icerdigini test eder")
@@ -53,7 +51,6 @@ public class AmazonStepDefinitions {
         String actual=amazonPage.amazonAramaSonucuElementi.getText();
         String expected="Java";
         Assert.assertTrue(actual.contains(expected));
-
     }
 
 
@@ -72,6 +69,8 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(actual.contains(expected));
     }
 
+
+
     @Then("amazon arama kutusuna {string} yazip aratir")
     public void amazonAramaKutusunaYazipAratir(String aranacakKelime) {
         amazonPage= new AmazonPage();
@@ -85,6 +84,7 @@ public class AmazonStepDefinitions {
         String expected=arananKelime;
         Assert.assertTrue(actual.contains(expected));
     }
+
 
     @Then("{int} saniye bekler")
     public void saniyeBekler(int saniye)  {

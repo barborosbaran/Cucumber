@@ -42,4 +42,14 @@ public class QualitydemyStepdefinitions {
     public void paswordKutusunaYazar(String istenenPassword) {
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty(istenenPassword));
     }
+
+    @And("kullanici kutusuna manuel olarak {string} yazar")
+    public void kullaniciKutusunaManuelOlarakYazar(String userName) {
+        qualitydemyPage.kullaniciEmailKutusu.sendKeys(userName);
+    }
+
+    @And("pasword kutusuna manuel olarak {string} yazar")
+    public void paswordKutusunaManuelOlarakYazar(String password) {
+        qualitydemyPage.passwordKutusu.sendKeys(password);
+    }
 }
