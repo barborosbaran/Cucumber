@@ -10,7 +10,7 @@ Feature: US1008 Scenario Outline ile birden fazla data icintest calistirma
     Given kullanici "amazonUrl" sayfasina gider
     Then  amazon arama kutusuna "<arananUrun>" yazip aratir
     And arama sonuclarinin "<arananUrun>" icerdigini test eder
-    Then sayfayi kapatir
+
 
 
 

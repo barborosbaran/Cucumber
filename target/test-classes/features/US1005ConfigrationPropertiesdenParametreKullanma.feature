@@ -11,14 +11,13 @@ Feature: US1005 Kullanici Configuration.propertiesde yazilan datalari parametre 
   Scenario: TC06 kullanici amazon sitesine gidisi test eder
     Given kullanici "amazonUrl" sayfasina gider
     Then  url de "amazon" oldugunu test eder
-    And  sayfayi kapatir
 
+@p2
   Scenario: TC06 kullanici wisequarter sitesine gidisi test eder
     Given kullanici "wisequarterUrl" sayfasina gider
     Then  url de "wisequarter" oldugunu test eder
-    And  sayfayi kapatir
+
 
   Scenario: TC06 kullanici walmart sitesine gidisi test eder
     Given kullanici "walmartUrl" sayfasina gider
     Then  url de "walmart" oldugunu test eder
-    And  sayfayi kapatir

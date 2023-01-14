@@ -1,4 +1,4 @@
-
+@smoke
 Feature: US1009 Yanlis kullanici adi ve password listesi ile negatif login testi
   Scenario Outline: TC14 yanlis kullanici listesi ile giris yapilamamali
 
@@ -9,7 +9,7 @@ Feature: US1009 Yanlis kullanici adi ve password listesi ile negatif login testi
     And pasword kutusuna manuel olarak "<yanlisPassword>" yazar
     And login butonuna basar
     And giris yapilamadigini test eder
-    Then sayfayi kapatir
+
 
     Examples:
       |yanlisUsername  | yanlisPassword|

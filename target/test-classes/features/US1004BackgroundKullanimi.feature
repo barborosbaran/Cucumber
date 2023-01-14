@@ -8,7 +8,7 @@ Feature: US1004 Kullanici bastaki ortak adimlar icin Background kullanir
 
     Then amazon arama kutusuna "Nutella" yazip aratir
     And arama sonuclarinin "Nutella" icerdigini test eder
-    Then sayfayi kapatir
+
 
 
   Scenario: TC04 Kullanici Parametreli metod ile Java Aratir
@@ -16,11 +16,10 @@ Feature: US1004 Kullanici bastaki ortak adimlar icin Background kullanir
 
     Then amazon arama kutusuna "Java" yazip aratir
     And arama sonuclarinin "Java" icerdigini test eder
-    Then sayfayi kapatir
+
 
   Scenario: TC04 Kullanici Parametreli metod ile Java Aratir
 
 
     Then amazon arama kutusuna "Samsung" yazip aratir
     And arama sonuclarinin "Samsung" icerdigini test eder
-    Then sayfayi kapatir

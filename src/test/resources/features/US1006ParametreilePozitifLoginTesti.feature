@@ -9,4 +9,3 @@ Feature: US1006 Kullanici configration dosyasindaki bilgilerle login olabilmeli
     Then  login butonuna basar
     And basarili giris yapildigini test eder
     And 3 saniye bekler
-    Then sayfayi kapatir

@@ -10,9 +10,12 @@ Feature: US1012 Window testi
     And username kutusuna deger yazar
     And password kutusuna deger yazar
     Then webunuversity login butonuna basar
+    Then 2 saniye bekler
     And Popup ta cikan yazinin validation failed oldugunu test eder
+    Then 2 saniye bekler
     And OK diyerek popup i kapatir
     Then ilk sayfaya geri doner
+    Then 2 saniye bekler
     And ilk sayfaya dondugunu test eder
-    And sayfayi kapatir
+    And Tum sayfalari kapatir
 

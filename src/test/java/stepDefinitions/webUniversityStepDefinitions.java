@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
@@ -92,5 +93,10 @@ public class webUniversityStepDefinitions {
     public void ilk_sayfaya_dondugunu_test_eder() {
         Assert.assertTrue(webUniversityPage.loginPortal.isDisplayed());
 
+    }
+
+    @And("Tum sayfalari kapatir")
+    public void tumSayfalariKapatir() {
+        Driver.quitDriver();
     }
 }

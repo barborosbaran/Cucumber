@@ -32,7 +32,7 @@ public class HerokuappStepDefinitions {
     @Then("Delete butonunun gorunmedigini test eder")
     public void delete_butonunun_gorunmedigini_test_eder() {
 
-        int flag=3;
+        //int flag=3;
         try {
             herokuappPage.deleteButonu.click();
             Assert.assertFalse(true);
