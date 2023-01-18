@@ -1,4 +1,4 @@
-@wip
+
 Feature: US1012 Window testi
 
   Scenario: TC17 kullanici yeni acilan window u test edebilmeli

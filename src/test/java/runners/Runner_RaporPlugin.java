@@ -12,11 +12,11 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features" ,
         glue = "stepDefinitions" ,
-        tags= "@smoke",  //@wip work in progres calistigimiz test icin
+        tags= "@wip",  //@wip work in progres calistigimiz test icin
         dryRun = false
 )
 
-public class Runner {
+public class Runner_RaporPlugin {
     /*
         Cucumber'da Runner class'i bos bir class'tir
         Runner class'ini diger class'lardan farkli kilan

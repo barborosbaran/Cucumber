@@ -5,11 +5,15 @@
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/utilities/ConfigReader.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/pages/QualitydemyPage.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/utilities/Driver.java
+/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/pages/TEKRAR.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/stepDefinitions/QualitydemyStepdefinitions.java
-/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/runners/Runner.java
+/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/runners/Runner_RaporPlugin.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/runners/ParalelRunner1.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/stepDefinitions/Hooks.java
+/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/pages/Guru99Page.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/stepDefinitions/webUniversityStepDefinitions.java
+/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/utilities/ReusableMethods.java
+/Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/stepDefinitions/Guru99Stepdefinitions.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/pages/HerokuappPage.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/runners/ParalelRunner2.java
 /Users/esmabaran/Documents/Barboros/wiseQuarter/selenium/com.Team105Cucumber/src/test/java/stepDefinitions/AmazonStepDefinitions.java
